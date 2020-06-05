@@ -12,7 +12,7 @@ class Storage {
         $this->item_name = $_item_name;
         $this->item_code = $_item_code;
         $this->item_quantity = $_item_quantity;
-        $this->eta = $_item_price;
+        $this->item_price = $_item_price;
     }
     public function printItemName() {
         return $this->item_name . ' ' . $this->item_code;
