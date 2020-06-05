@@ -1,7 +1,7 @@
 <?php
 include_once __DIR__ . '/Storage.php';
 
-class Hardware extends Storage {
+class Books extends Storage {
     public $title;
     public $author;
     public $pages;
